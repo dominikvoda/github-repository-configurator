@@ -1,0 +1,23 @@
+{
+  "name": "dominikvoda/github-repository-configurator",
+  "description": "Github repository configurator",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dominik Voda",
+      "email": "d.voda94@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GithubRepositoryConfigurator\\": "src"
+    }
+  },
+  "require": {
+    "symfony/console": "^5.1",
+    "guzzlehttp/guzzle": "^7.0",
+    "nette/utils": "^3.1",
+    "nette/neon": "^3.2"
+  }
+}
